@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+
+}
+.name{
+    font-size: 5em;
+    color: #543e5c;
+    font-weight: 1200px;
+}
+.head-nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.head-nav li{
+    display: inline-block;
+    margin: 1em;
+}
+.head-nav a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5em;
+    color: #fff0f8;
+}
+.intro{
+    background: linear-gradient(90deg,rgba(62,56,56,0.5),rgba(22,20,19,0.8)),url(intro-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10em 0;
+    color: #fff0f8;
+}
