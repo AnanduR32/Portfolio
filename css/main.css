@@ -81,8 +81,7 @@ header{
 }
 .about-me{
     padding: 5em 0;
-    overflow: auto;
-    
+    overflow: auto;    
 }
 .about-me h4{
     color: #543e5c;
