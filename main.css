@@ -46,6 +46,7 @@ header{
     background-position: center center;
     padding: 10em 0;
     color: #fff0f8;
+    background-attachment: fixed;
 }
 .content-intro{
     margin-top: 5em;
@@ -98,6 +99,9 @@ header{
     clear: both;
     text-align: left;
 }
+.col-narrow p,h2,h3{
+    margin: 5px 0;
+}
 .col-wide{
     width: 70%;
     float: right;
@@ -133,10 +137,11 @@ header{
 }
 .work{
     padding: 5em 0;
-    background: linear-gradient(90deg,rgba(0,0,0,0.5),rgb(255,240,248,0)),url(qual-background.jpg);
+    background: linear-gradient(90deg,rgba(0,0,0,0.8),rgb(255,240,248)),url(qual-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     overflow: hidden;
     color: #fff;
+    background-attachment: fixed;
 }
