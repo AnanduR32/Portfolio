@@ -4,16 +4,25 @@
 body{
     font-family: 'Slabo 27px', serif;
     text-align: center;
-
+}
+header{
+    margin-top: 1.5em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    clear:both;
+    overflow: auto;
 }
 .name{
-    font-size: 5em;
+    font-size: 4.3em;
     color: #543e5c;
     font-weight: 1200px;
+    margin: 0;
 }
 .head-nav ul{
     list-style: none;
     margin: 0 auto;
+    padding: 0;
 }
 .head-nav li{
     display: inline-block;
@@ -33,4 +42,35 @@ body{
     background-position: center center;
     padding: 10em 0;
     color: #fff0f8;
+}
+.content-intro{
+    margin-top: 5em;
+    overflow: auto;
+}
+.content-intro h1{
+    margin-top: 1.5em;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content-intro span{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+}
+.button-intro{
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    background: #543e5c;
+    color: #ffffff;
+    font-weight: 400;
+    border: 2px solid #543e5c;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+.button-intro:hover{
+    background: white;
+    color: black;
+    border: 2px solid #543e5c;
 }
