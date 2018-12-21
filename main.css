@@ -5,6 +5,10 @@ body{
     font-family: 'Slabo 27px', serif;
     text-align: center;
 }
+hr{
+    border: 2.5px solid white;
+    width: 100px;
+}
 header{
     margin-top: 1.5em;
     position: absolute;
@@ -91,6 +95,8 @@ header{
     float: left;
     overflow: hidden;
     margin-top: 2em;
+    clear: both;
+    text-align: left;
 }
 .col-wide{
     width: 70%;
@@ -124,4 +130,13 @@ header{
     color: #543e5c;
     border:1px solid grey;
     background: grey;
+}
+.work{
+    padding: 5em 0;
+    background: linear-gradient(90deg,rgba(0,0,0,0.5),rgb(255,240,248,0)),url(qual-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    color: #fff;
 }
