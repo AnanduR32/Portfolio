@@ -145,3 +145,13 @@ header{
     color: #fff;
     background-attachment: fixed;
 }
+.contact-me{
+    padding: 5em 0;
+    overflow: auto;
+}
+.footer{
+    background: black;
+    padding: 5em 0;
+    color: #fff0f8;
+    overflow: auto;
+}
