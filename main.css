@@ -70,7 +70,58 @@ header{
     transition: all 0.2s linear;
 }
 .button-intro:hover{
-    background: white;
-    color: black;
-    border: 2px solid #543e5c;
+    background: grey;
+    color: #543e5c;
+    border: 2px solid grey;
+}
+.about-me{
+    padding: 5em 0;
+    overflow: auto;
+    
+}
+.about-me h4{
+    color: #543e5c;
+}
+.content-wrap{
+    width: 90%;
+    margin :0 auto;
+    
+}
+.col-narrow{
+    float: left;
+    overflow: hidden;
+    margin-top: 2em;
+}
+.col-wide{
+    width: 70%;
+    float: right;
+    text-align: left;
+    overflow: hidden;
+    margin-top: 2em;
+}
+.social-icons{
+    list-style: none;
+    padding: 0;
+}
+.social-icons li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+.social-icons a{
+    border-radius: 50%;
+    border: 1px solid #444444;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    display: block;
+    color: #444444;
+    transition: all 0.2s ease-in;
+}
+.social-icons a:hover{
+    color: #543e5c;
+    border:1px solid grey;
+    background: grey;
 }
