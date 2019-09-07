@@ -146,7 +146,7 @@ header{
     background-position: center center;
     overflow: hidden;
     color: #fff;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 .contact-me{
     padding: 5em 0;
