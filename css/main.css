@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 hr{
     border: 2.5px solid white;
     width: 100px;
 }
-header{
+.header{
     margin-top: 1.5em;
     position: absolute;
     left: 0;
@@ -166,11 +166,6 @@ header{
 		-o-transform: translate3d(0, 0, 0);
 		-ms-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
-}
-.header {
-	$(function () {
-	 $('.header').stickyNavbar();
-});
 }
 .sticky {
 	top: 0
