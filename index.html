@@ -23,7 +23,7 @@
     <div id="header" class="header">
     <header>
         <h1 class="name">Anandu R</h1>
-        <nav id="nav" class="head-nav">
+        <nav id="navbar" class="head-nav">
             <ul class="nav navbar-nav">
                 <li><a data-scroll href="#">Home</a></li>
                 <li><a data-scroll href="#About_Me">About</a></li>
@@ -146,6 +146,22 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
     </script>
 </body>
 </html>
