@@ -21,7 +21,7 @@ hr{
 }
 .name{
     font-size: 4.3em;
-    color: #543e5c;
+    color: #3fc5f0;
     font-weight: 1200px;
     margin: 0;
 }
@@ -43,10 +43,10 @@ hr{
     transition: all 0.2s linear;
 }
 .head-nav a:hover{
-    color: #543e5c;
+    color: #3fc5f0;
 }
 .intro{
-    background: linear-gradient(90deg,rgba(62,56,56,0.5),rgba(22,20,19,0.8)),url('../images/intro-Background.jpg');
+    background: linear-gradient(90deg,rgba(62,56,56,0.5),rgba(25, 58, 66, 0.8)),url('../images/intro-Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -73,16 +73,16 @@ hr{
 .button-intro{
     padding: 0.5em 2em;
     margin-top: 1em;
-    background: #543e5c;
+    background: #3fc5f0;
     color: #ffffff;
     font-weight: 400;
-    border: 2px solid #543e5c;
+    border: 2px solid #3fc5f0;
     text-transform: uppercase;
     transition: all 0.2s linear;
 }
 .button-intro:hover{
     background: grey;
-    color: #543e5c;
+    color: #3fc5f0;
     border: 2px solid grey;
 }
 .about-me{
@@ -90,7 +90,7 @@ hr{
     overflow: auto;    
 }
 .about-me h4{
-    color: #543e5c;
+    color: #3fc5f0;
 }
 .content-wrap{
     width: 90%;
@@ -136,13 +136,13 @@ hr{
     transition: all 0.2s ease-in;
 }
 .social-icons a:hover{
-    color: #543e5c;
+    color: #3fc5f0;
     border:1px solid grey;
     background: grey;
 }
 .work{
     padding: 5em 0;
-    background: linear-gradient(90deg,rgba(0,0,0,0.8),rgb(255,240,248)),url('../images/qual-background.jpg');
+    background: linear-gradient(90deg,rgba(0,0,0,0.8),rgba(33, 163, 202, 0.774)),url('../images/qual-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -164,7 +164,7 @@ hr{
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #543e5c;
+    background-color: #3fc5f0;
 }
 
 /* Navbar links */
