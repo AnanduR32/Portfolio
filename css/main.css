@@ -142,7 +142,7 @@ hr{
 }
 .work{
     padding: 5em 0;
-    background: linear-gradient(90deg,rgba(118, 140, 141, 0.8),rgba(33, 163, 202, 0.774)),url('../images/qual-background.jpg');
+    background: linear-gradient(90deg,rgba(0, 189, 199, 0.541),rgba(33, 163, 202, 0.774)),url('../images/qual-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
