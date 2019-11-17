@@ -7,7 +7,7 @@ A resume website developed through HTML
 |Check List                              |
 |----------------------------------------|
 |[X] Need to add on-click scroll script  |
-|[ ]  persistent header                  |
+|[X]  persistent header                  |
 
 
 * Link : https://anandur32.github.io/Resume32R/
