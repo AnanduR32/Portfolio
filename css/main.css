@@ -196,7 +196,7 @@ hr{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 48%;
+  max-width: 650px;
   margin: auto;
   position: relative;
   float: left;
@@ -206,7 +206,7 @@ hr{
   text-align: left;
 }
 .slideshow-container-content {
-    max-width: 48%;
+    max-width: 650px;
     margin: auto;
     position: relative;
     float: right;
