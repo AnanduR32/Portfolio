@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Anandu R">
     <meta name="description" content="Resume">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Anandu R</title>
-    <link rel="icon" 
-         type="image/png" 
-         href="images/title.png">
+    <link rel="icon" type="image/png" href="images/title.png">
     <link rel="stylesheet" href="css/main.css">
     <!--Normalize css file-->
-    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/normalize.css">
     <!--Font Style-->
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
     <!--Icons-->
-    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" >    
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css">
     <link rel="stylesheet" href="dist/hamburgers.css">
 </head>
+
 <body>
     <!--Header-->
     <div id="header" class="header">
-    <header>
-        <h1 class="name">Anandu R</h1>
-        <nav id="navbar" class="head-nav">
-            <ul class="nav navbar-nav">
-                <li><a data-scroll href="#">Home</a></li>
-                <li><a data-scroll href="#About_Me">About</a></li>
-                <li><a data-scroll href="#My_Work">My Work</a></li>
-                <li><a data-scroll href="#Contact_Me">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
+        <header>
+            <h1 class="name">Anandu R</h1>
+            <nav id="navbar" class="head-nav">
+                <ul class="nav navbar-nav">
+                    <li><a data-scroll href="#">Home</a></li>
+                    <li><a data-scroll href="#About_Me">About</a></li>
+                    <li><a data-scroll href="#My_Projects">Projects</a></li>
+                    <li><a data-scroll href="#My_Qualifications">Qualifications</a></li>
+                    <li><a data-scroll href="#Contact_Me">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
     <!--Intro-->
     <section class="intro">
@@ -40,33 +41,101 @@
             <button class="button-intro">Take a look</button>
         </div>
     </section>
-     <!--About Me-->
+    <!--About Me-->
     <section class="about-me" id="About_Me">
         <h1>Who Am I?</h1>
         <h4>A 21 year old code tinkerer, on the verge of scientific breakthrough</h4>
         <div class="content-wrap">
             <div class="col-narrow">
-                <img src="images/profile.jpg" width="300px";>
+                <img src="images/profile.jpg" width="300px" ;>
             </div>
             <div class="col-wide">
-                <p>Spent most of my life around computers and other electronic devices, greatly fascinated by innovations and breakthroughs in technology and would like to surround myself without people who share the same passion as I do towards science and technology.</p>
-                <p>Spend most of my time searching of ways to improve upon what is present and find new innovative ways to reach solution to something effectively and efficiently.</p>
+                <p>Spent most of my life around computers and other electronic devices, greatly fascinated by
+                    innovations and breakthroughs in technology and would like to surround myself without people who
+                    share the same passion as I do towards science and technology.</p>
+                <p>Spend most of my time searching of ways to improve upon what is present and find new innovative ways
+                    to reach solution to something effectively and efficiently.</p>
             </div>
         </div>
     </section>
-    <!--Skills-->
-    <section class="work" id="My_Work">
-        <div><h1>Programming Languages and tools I'm familiar with</h1></div>
+    <!--Projects-->
+    <section class="about-me" id="My_Projects">
+        <div>
+            <h1>Projects I've worked on</h1>
+        </div>
         <hr>
-        <div><p>
+        <div class="content-wrap">
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade-slide">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="images/intro-Background.jpg" style="width:100%">
+                    <div class="text">Odu Komban</div>
+                </div>
+
+                <div class="mySlides fade-slide">
+                    <div class="numbertext">2 / 2</div>
+                    <img src="images/qual-background.jpg" style="width:100%">
+                    <div class="text">Meat point</div>
+                </div>
+
+                <!-- <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="img3.jpg" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div> -->
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+                </div>
+            </div>
+            <div class="slideshow-container-content">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade-content"  style="width:100%">
+                    <p>Spent most of my life around computers and other electronic devices, greatly fascinated by
+                        innovations and breakthroughs in technology and would like to surround myself without people who
+                        share the same passion as I do towards science and technology.</p>
+                    
+                </div>
+
+                <div class="mySlides fade-content"  style="width:100%">
+                    <p>Spend most of my time searching of ways to improve upon what is present and find new innovative ways
+                        to reach solution to something effectively and efficiently.</p>
+                </div>
+            </div>
+            <br>
+
+
+        </div>
+
+    </section>
+    <!--Skills-->
+    <section class="qualification" id="My_Qualifications">
+        <div>
+            <h1>Programming Languages and tools I'm familiar with</h1>
+        </div>
+        <hr>
+        <div>
+            <p>
             <ul style="list-style-type:none">
                 <li>Python, javascript, Java, C, C++, Ruby</li>
                 <li>Pandas, Django</li>
             </ul>
-        </p></div>
-        <div><h1>Certifications </h1></div>
+            </p>
+        </div>
+        <div>
+            <h1>Certifications </h1>
+        </div>
         <hr>
-        <div><p><h3>Completed</h3>
+        <div>
+            <p>
+            <h3>Completed</h3>
             <ul style="list-style-type:none">
                 <li>Java programming</li>
                 <li>DBMS - SQL programming and database management</li>
@@ -96,64 +165,84 @@
                 <li>Datamining</li>
             </ul>
             </h3>
-        </p></div>
-        <div><h1 style="padding-top: 20px">Fields I'm comfortable working in</h1></div>
+            </p>
+        </div>
+        <div>
+            <h1 style="padding-top: 20px">Fields I'm comfortable working in</h1>
+        </div>
         <hr>
-        <div><p>Datascience, Machine Learning,Android Development, Web development</p></div>
-    <!--Work Experience-->
+        <div>
+            <p>Datascience, Machine Learning,Android Development, Web development</p>
+        </div>
+        <!--Academic Experience-->
         <div class="content-wrap">
             <h1 style="padding-top: 20px">Equcational Qualification</h1>
             <hr>
-        <!--Qualification 1-->
-        <div class="col-narrow">
-            <h2>B.Tech -CSE (KTU)</h2>
-            <h3>2017-2021</h3>
-            <p>SJCET, Palai</p>
-        </div>
-        <div class="col-wide">
-            <p>Currently doing B.Tech in computer science and engineering at SJCET, palai (College code - SJC).</p>            
-        </div>
-        <!--Qualification 2-->
-        <div class="col-narrow">
-            <h2>Highschool (ISC)</h2>
-            <h3>2015-2016</h3>
-            <p>SDA. Hr. Sec. School, Kaloor</p>
-        </div>
-        <div class="col-wide">
-            <p>Completed two years of my high school at Seventh Day Adventist, Higher secondary school with far above average results, part of the hockey team. School captain during highschool. Organised various events at school with help of my friends and actively took part in event organising.</p>            
-        </div>
-        <!--Qualification 3-->
-        <div class="col-narrow">
-            <h2>School (ICSE)</h2>
-            <h3>2006-2015</h3>
-            <p>SDA. Hr. Sec. School, Kaloor</p>
+            <!--Qualification 1-->
+            <div class="col-narrow">
+                <h2>B.Tech -CSE (KTU)</h2>
+                <h3>2017-2021</h3>
+                <p>SJCET, Palai</p>
+            </div>
+            <div class="col-wide">
+                <p>Currently doing B.Tech in computer science and engineering at SJCET, palai (College code - SJC).</p>
+            </div>
+            <!--Qualification 2-->
+            <div class="col-narrow">
+                <h2>Highschool (ISC)</h2>
+                <h3>2015-2016</h3>
+                <p>SDA. Hr. Sec. School, Kaloor</p>
+            </div>
+            <div class="col-wide">
+                <p>Completed two years of my high school at Seventh Day Adventist, Higher secondary school with far
+                    above average results, part of the hockey team. School captain during highschool. Organised various
+                    events at school with help of my friends and actively took part in event organising.</p>
+            </div>
+            <!--Qualification 3-->
+            <div class="col-narrow">
+                <h2>School (ICSE)</h2>
+                <h3>2006-2015</h3>
+                <p>SDA. Hr. Sec. School, Kaloor</p>
 
+            </div>
+            <div class="col-wide">
+                <p>Joined Seventh Day Adventist after I arrived in kerala in 2006, spent my entire school life at this
+                    institute till I passed out of highschool. Been an active personality in school, getting along with
+                    everyone, with top results academically. Also part of college hockey team that won various
+                    tournaments while I was part of it. Vice-captain during my final school year, assisting the then
+                    vice captain to carry out their functions.</p>
+            </div>
         </div>
-        <div class="col-wide">
-            <p>Joined Seventh Day Adventist after I arrived in kerala in 2006, spent my entire school life at this institute till I passed out of highschool. Been an active personality in school, getting along with everyone, with top results academically. Also part of college hockey team that won various tournaments while I was part of it. Vice-captain during my final school year, assisting the then vice captain to carry out their functions.</p>            
-        </div>
-    </div>
     </section>
     <!--Contact Me-->
     <section class="contact-me" id="Contact_Me">
         <div class="content-wrap">
             <h1>Contact Me</h1>
             <nav>
-                    <ul class="social-icons">
-                        <li><a href="https://www.linkedin.com/in/anandur32" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
-                        <li><a href="https://github.com/AnanduR32" target="_blank"><i class="icon ion-logo-github"></i></a></li>
-                        <li><a href="https://twitter.com/aquaregis32" target="_blank"><i class="icon ion-logo-twitter"></i></a></li>
-                        <li><a href="https://dev.to/anandur32">
-                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anandu R's DEV Profile" height="20" width="20">
-                          </a></li>    
-                        <li><a href="https://www.instagram.com/anandu_r32/" target="_blank"><i class="icon ion-logo-instagram"></i></a></li>
-                        <li><a href="https://www.tumblr.com/blog/anandur32" target="_blank"><i class="icon ion-logo-tumblr"></i></a></li>
-                        <li><a href="https://in.pinterest.com/ananduraj32/" target="_blank"><i class="icon ion-logo-pinterest"></i></a></li> 
-                              
-                    </ul>
-                </nav>
-            <p>If you ever wish to get in touch and grab a drink or two maybe, contact me on my social networking profiles or contact me personally via email below.</p>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ananduraj32@gmail.com" target="_blank"><button class="button-intro">Contact Me</button></a>
+                <ul class="social-icons">
+                    <li><a href="https://www.linkedin.com/in/anandur32" target="_blank"><i
+                                class="icon ion-logo-linkedin"></i></a></li>
+                    <li><a href="https://github.com/AnanduR32" target="_blank"><i class="icon ion-logo-github"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/aquaregis32" target="_blank"><i
+                                class="icon ion-logo-twitter"></i></a></li>
+                    <li><a href="https://dev.to/anandur32">
+                            <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anandu R's DEV Profile"
+                                height="20" width="20">
+                        </a></li>
+                    <li><a href="https://www.instagram.com/anandu_r32/" target="_blank"><i
+                                class="icon ion-logo-instagram"></i></a></li>
+                    <li><a href="https://www.tumblr.com/blog/anandur32" target="_blank"><i
+                                class="icon ion-logo-tumblr"></i></a></li>
+                    <li><a href="https://in.pinterest.com/ananduraj32/" target="_blank"><i
+                                class="icon ion-logo-pinterest"></i></a></li>
+
+                </ul>
+            </nav>
+            <p>If you ever wish to get in touch and grab a drink or two maybe, contact me on my social networking
+                profiles or contact me personally via email below.</p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ananduraj32@gmail.com" target="_blank"><button
+                    class="button-intro">Contact Me</button></a>
         </div>
     </section>
     <!--Footer-->
@@ -166,7 +255,7 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
-        window.onscroll = function() {myFunction()};
+        window.onscroll = function () { myFunction() };
 
         // Get the navbar
         var navbar = document.getElementById("navbar");
@@ -176,12 +265,45 @@
 
         // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
         }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides fade-slide");
+            var content = document.getElementsByClassName("mySlides fade-content");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                content[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            content[slideIndex - 1].style.display = "block";
+        }
+
     </script>
 </body>
+
 </html>
