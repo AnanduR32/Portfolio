@@ -179,13 +179,17 @@ hr{
 
 /* Page content */
 .content {
-    padding: 16px;
+    /* padding: 16px; */
+    z-index: -1;
+    position: relative;
+    
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
+    z-index: +100;
     width: 100%;
 }
 
@@ -257,6 +261,7 @@ hr{
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
+  margin-bottom: 12px;
   bottom: 8px;
   width: 100%;
   text-align: center;
