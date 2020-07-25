@@ -67,13 +67,13 @@
         <div class="content-wrap">
             <div class="slideshow-container">
                 <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade-slide">
+                <div class="mySlides fade SlideshowSlide">
                     <div class="numbertext">1 / 2</div>
                     <img src="images/intro-Background.jpg" style="width:100%">
                     <div class="text">Odu Komban</div>
                 </div>
 
-                <div class="mySlides fade-slide">
+                <div class="mySlides fade SlideshowSlide">
                     <div class="numbertext">2 / 2</div>
                     <img src="images/qual-background.jpg" style="width:100%">
                     <div class="text">Meat point</div>
@@ -97,14 +97,14 @@
             </div>
             <div class="slideshow-container-content">
                 <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade-content"  style="width:100%">
+                <div class="mySlides fade SlideshowContent"  style="width:100%">
                     <p>Spent most of my life around computers and other electronic devices, greatly fascinated by
                         innovations and breakthroughs in technology and would like to surround myself without people who
                         share the same passion as I do towards science and technology.</p>
                     
                 </div>
 
-                <div class="mySlides fade-content"  style="width:100%">
+                <div class="mySlides fade SlideshowContent"  style="width:100%">
                     <p>Spend most of my time searching of ways to improve upon what is present and find new innovative ways
                         to reach solution to something effectively and efficiently.</p>
                 </div>
@@ -286,8 +286,8 @@
 
         function showSlides(n) {
             var i;
-            var slides = document.getElementsByClassName("mySlides fade-slide");
-            var content = document.getElementsByClassName("mySlides fade-content");
+            var slides = document.getElementsByClassName("SlideshowSlide");
+            var content = document.getElementsByClassName("SlideshowContent");
             var dots = document.getElementsByClassName("dot");
             if (n > slides.length) { slideIndex = 1 }
             if (n < 1) { slideIndex = slides.length }
