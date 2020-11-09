@@ -313,25 +313,11 @@ hr{
     text-align: left;
     align-content: flex-start;
     vertical-align: top;
-    overflow: auto;
+    /* overflow: auto; */
 }
 #table-col-long {
     text-align: right;
     overflow: auto;
-}
-#table-col-head-1 {
-    text-align: left;
-    align-content: flex-start;
-    vertical-align: top;
-    overflow: auto;
-    font-style: normal;
-    font-family: 'Quicksand';
-}
-#table-col-head-long {
-    text-align: right;
-    overflow: auto;
-    font-family: 'Quicksand';
-
 }
 
 #table-heading{
@@ -356,5 +342,14 @@ hr{
     overflow: hidden;
     margin-top: 2em;
     text-align: left;
+}
+
+.content-wrap-grayed {
+    width: 90%;
+    padding: 1.5em;
+    margin :0 auto;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    
 }
   
