@@ -313,7 +313,49 @@ hr{
 #table-col-1 {
     text-align: left;
     align-content: flex-start;
+    vertical-align: top;
+    overflow: auto;
 }
 #table-col-long {
     text-align: right;
+    overflow: auto;
 }
+#table-col-head-1 {
+    text-align: left;
+    align-content: flex-start;
+    vertical-align: top;
+    overflow: auto;
+    font-style: normal;
+    font-family: 'Quicksand';
+}
+#table-col-head-long {
+    text-align: right;
+    overflow: auto;
+    font-family: 'Quicksand';
+
+}
+
+#table-heading{
+    font-family: "Quicksand";
+}
+
+.view-content-left {
+    max-width: 650px;
+    margin: auto;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: 2em;
+    clear: both;
+    text-align: left;
+  }
+.view-content-right {
+    max-width: 650px;
+    margin: auto;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    margin-top: 2em;
+    text-align: left;
+}
+  
