@@ -137,6 +137,10 @@ header .header-icon > img {
 .content .section-about > .section-about-content li {
   padding: 2px 0px;
 }
+.content .section-about > .section-about-content a {
+  text-decoration: none;
+  font-weight: 600;
+}
 
 .content .section-projects {
   width: 90%;
@@ -177,30 +181,6 @@ header .header-icon > img {
 .content .section-contacts p{
     width: fit-content;
     margin: 20px auto;
-}
-
-form {
-  border-radius: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: 10px auto;
-  background-color: rgb(1, 182, 182);
-}
-form > input {
-  margin: 3px;
-  border-style: none;
-  border-radius: 4px;
-}
-
-form > input[type="text"] {
-  width: 60%;
-  margin: 4px auto;
-}
-
-.form-spacer {
-  height: 5px;
 }
 
 .section-contacts .section-contacts-header {
