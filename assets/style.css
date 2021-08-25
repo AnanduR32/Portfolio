@@ -178,6 +178,20 @@ header .header-icon > img {
   min-width: 300px;
 }
 
+.content .section-qualifications {
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.content .section-qualifications-block {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
+}
+
 .content .section-contacts p{
     width: fit-content;
     margin: 20px auto;
