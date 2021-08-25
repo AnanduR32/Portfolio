@@ -1,10 +1,6 @@
 import AbstractView from "./AbstractView.js";
 
 export default class  extends AbstractView {
-    constructor(){
-        super()
-        this.setTitle("About")
-    }
     async getHTML(){
         return `<section class="section-about">
         <div class="section-about-content">

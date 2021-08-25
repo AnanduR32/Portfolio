@@ -1,10 +1,6 @@
 import AbstractView from "./AbstractView.js";
 
 export default class  extends AbstractView {
-    constructor(){
-        super()
-        this.setTitle("Home")
-    }
     async getHTML(){
         return `<div class="section-home-header">
         <h3>🤺 Datascientist | UI/UX Designer | Android Developer 🦉</h3>
