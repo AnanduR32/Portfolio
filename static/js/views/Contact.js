@@ -1,10 +1,6 @@
 import AbstractView from "./AbstractView.js";
 
 export default class  extends AbstractView {
-    constructor(){
-        super()
-        this.setTitle("Contact")
-    }
     async getHTML(){
         return `<section class="section-contacts">
     <div class="section-contacts-header">
@@ -43,12 +39,10 @@ export default class  extends AbstractView {
     <p>If you ever wish to get in touch and grab a drink or two, contact me on my social networking
         profiles or contact me personally via email below.</p>
 
-    <div class="contact-button-container">
         <div class='contact-button'>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ananduraj32@gmail.com"
                 target="_blank">Contact Me</a>
         </div>
-    </div>
 
     </a>
 </section>`

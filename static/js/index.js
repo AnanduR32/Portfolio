@@ -11,11 +11,11 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: Home },
-        { path: "/About", view: About },
-        { path: "/Projects", view: Projects },
-        { path: "/Qualifications", view: Qualifications },
-        { path: "/Contact", view: Contact }
+        { path: "/Portfolio/", view: Home },
+        { path: "/Portfolio/About", view: About },
+        { path: "/Portfolio/Projects", view: Projects },
+        { path: "/Portfolio/Qualifications", view: Qualifications },
+        { path: "/Portfolio/Contact", view: Contact }
     ]
 
     const potentialMatches = routes.map(route => {

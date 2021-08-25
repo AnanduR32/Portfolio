@@ -89,6 +89,10 @@ header .header-icon > img {
   height: 150px;
 }
 
+.content .section-home-header {
+  text-align: center;
+}
+
 .content a:link:not(.social-icon a):not(.contact-button a){
     color: #ffd23f
 }
@@ -103,17 +107,44 @@ header .header-icon > img {
   text-align: center;
 }
 
-.content .section-about > .section-about-block {
+.content .section-about-block {
+  width: fit-content;
+  margin: auto;
   padding: 10px;
+  text-align: left;
+}
+
+.content
+  .section-about
+  > .section-about-content
+  > .section-about-content-block {
+  width: 90%;
+  min-width: 300px;
+  width: auto;
+  text-align: left;
+}
+.content .section-about > .section-about-content {
+  font-weight: 500;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content .section-about > .section-about-content ul {
+  list-style-type: circle;
+}
+
+.content .section-about > .section-about-content li {
+  padding: 2px 0px;
+}
+.content .section-about > .section-about-content a {
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .content .section-projects {
   width: 90%;
   margin: 10px auto;
-}
-
-.content .section-projects > .section-projects-header {
-  text-align: center;
 }
 
 .content .section-projects > .section-projects-content {
@@ -143,37 +174,27 @@ header .header-icon > img {
   .section-projects
   > .section-projects-content
   > .section-projects-content-block {
-  width: 50%;
+  width: 90%;
   min-width: 300px;
+}
+
+.content .section-qualifications {
+  font-weight: 500;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.content .section-qualifications-block {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  text-align: left;
 }
 
 .content .section-contacts p{
     width: fit-content;
     margin: 20px auto;
-}
-
-form {
-  border-radius: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  margin: 10px auto;
-  background-color: rgb(1, 182, 182);
-}
-form > input {
-  margin: 3px;
-  border-style: none;
-  border-radius: 4px;
-}
-
-form > input[type="text"] {
-  width: 60%;
-  margin: 4px auto;
-}
-
-.form-spacer {
-  height: 5px;
 }
 
 .section-contacts .section-contacts-header {
@@ -206,20 +227,6 @@ form > input[type="text"] {
   background: grey;
 }
 
-.contact-button-container{
-    background-color: #ffd23f;
-    height: 46px;
-    width: 196px;
-    border-radius: 8px;
-    border-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-}
-
 .contact-button {
   padding: 2px;
   display: flex;
@@ -228,9 +235,10 @@ form > input[type="text"] {
   align-items: center;
   height: 30px;
   width: 180px;
+  margin: auto;
   border-radius: 8px;
   border-style: none;
-  background-color: #f3fcf0;
+  background-color: #ffd23f;
   font-size: 12px;
   transition: all 0.15s ease-in;
 }
