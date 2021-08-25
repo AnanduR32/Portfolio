@@ -227,20 +227,6 @@ header .header-icon > img {
   background: grey;
 }
 
-.contact-button-container{
-    background-color: #ffd23f;
-    height: 46px;
-    width: 196px;
-    border-radius: 8px;
-    border-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-}
-
 .contact-button {
   padding: 2px;
   display: flex;
@@ -249,9 +235,10 @@ header .header-icon > img {
   align-items: center;
   height: 30px;
   width: 180px;
+  margin: auto;
   border-radius: 8px;
   border-style: none;
-  background-color: #f3fcf0;
+  background-color: #ffd23f;
   font-size: 12px;
   transition: all 0.15s ease-in;
 }
