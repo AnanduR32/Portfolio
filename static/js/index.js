@@ -9,16 +9,16 @@ const navigateTo = url => {
     router();
 }
 
-const router = async()=>{
+const router = async () => {
     const routes = [
-        { path: "/", view: Home},
-        { path: "/About", view: About},
-        { path: "/Projects", view: Projects},
-        { path: "/Qualifications", view: Qualifications},
-        { path: "/Contact", view: Contact}
+        { path: "/", view: Home },
+        { path: "/About", view: About },
+        { path: "/Projects", view: Projects },
+        { path: "/Qualifications", view: Qualifications },
+        { path: "/Contact", view: Contact }
     ]
 
-    const potentialMatches = routes.map(route=>{
+    const potentialMatches = routes.map(route => {
         return {
             route: route,
             isMatch: location.pathname === route.path
@@ -26,7 +26,7 @@ const router = async()=>{
     })
     let match = potentialMatches.find(potentialMatche => potentialMatche.isMatch)
 
-    if(!match){
+    if (!match) {
         match = {
             route: routes[0],
             isMatch: true
@@ -43,9 +43,9 @@ const router = async()=>{
 
 window.addEventListener("popstate", router)
 
-document.addEventListener("DOMContentLoaded",()=>{
-    document.body.addEventListener("click", e=>{
-        if(e.target.matches("[data-link]")){
+document.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", e => {
+        if (e.target.matches("[data-link]")) {
             e.preventDefault()
             navigateTo(e.target.href)
         }

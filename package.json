@@ -1,0 +1,25 @@
+{
+  "name": "resume32r",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnanduR32/Resume32R.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Anandu R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnanduR32/Resume32R/issues"
+  },
+  "homepage": "https://github.com/AnanduR32/Resume32R#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
