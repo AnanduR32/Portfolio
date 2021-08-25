@@ -8,7 +8,7 @@ app.use("/assets", express.static(path.resolve(__dirname, ".", "assets")))
 
 
 app.get("/*",(req, res)=>{
-    res.sendFile(path.resolve(__dirname, "frontend","index.html"))
+    res.sendFile(path.resolve(__dirname,"index.html"))
 })
 
 const port = process.env.PORT || 32322;
