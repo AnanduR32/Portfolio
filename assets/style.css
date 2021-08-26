@@ -49,6 +49,7 @@ body {
   margin: 0px auto;
   width: 80%;
   font-weight: 600;
+  background-color: beige;
 }
 .content {
   margin: 32px auto;
@@ -219,6 +220,7 @@ header .header-icon > img {
   font-size: 16px;
   display: block;
   color: #444444;
+  background-color: white;
   transition: all 0.15s ease-in;
 }
 .social-icon a:hover {
