@@ -103,9 +103,8 @@ header .header-icon > img {
 
 .content .section-about {
   font-weight: 500;
-  width: 80%;
+  width: 90%;
   margin: auto;
-  text-align: center;
 }
 
 .content .section-about-block {
@@ -175,7 +174,7 @@ header .header-icon > img {
   .section-projects
   > .section-projects-content
   > .section-projects-content-block {
-  width: 90%;
+  width: 25%;
   min-width: 300px;
 }
 

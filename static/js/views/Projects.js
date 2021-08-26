@@ -5,7 +5,62 @@ export default class  extends AbstractView {
         return `<section class="section-projects">
         <div class="section-projects-content">
             <div class="section-projects-content-block">
-                <h4>Check out my datascience projects</h4>
+                <h4>OduKomban (Bus Infrastructure Automation)</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Stormers-one/passenger_app">
+                            Passenger app (Flutter)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Stormers-one/driver_conductor_app">
+                            Driver app (Flutter)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Stormers-one/website-o_k">
+                            Operator Website (Angular)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Stormers-one">
+                            Project Organisation - Stormers-one
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-projects-content-block">
+                <h4>MeatPoint (E-commerce)</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Stormers-one/meat-point">
+                            Customer app (Flutter)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Stormers-one/meat-point">
+                            Vendor app (Flutter)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-projects-content-block">
+                <h4>Datascience Projects (E-commerce)</h4>
+                <ul>
+                    <li>
+                        <a href="https://house-price-ar32.herokuapp.com/">
+                            House Price Prediction app (Flask-Dash)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://text-predict-ar32.herokuapp.com/">
+                            Text Prediction app (Flask-Dash)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section-projects-content-block">
+                <h4>Datascience reports/analysis</h4>
                 <ul>
                     <li>
                         <a href="https://www.kaggle.com/aquaregis32">
