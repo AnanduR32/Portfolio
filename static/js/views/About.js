@@ -9,7 +9,7 @@ export default class  extends AbstractView {
         <ul>
             <li>👾 A technology enthusiast that has answers to it all. </li>
             <li>🦈 Check out my portfolio website - <a
-                    href="https://anandur32.github.io/Resume32R/">Resume32R</a>
+                    href="https://anandur32.github.io/Portfolio/">Portfolio</a>
             </li>
             <li>📚 Read some of my <a href="https://aquaregis32.medium.com/">medium</a> posts </li>
             <li>📫 Reach out to me on <a href="https://twitter.com/AquaRegis32">Twitter</a> or <a
@@ -19,7 +19,7 @@ export default class  extends AbstractView {
     </div>
     <div class="section-about-block">
             Spent most of my life around computers and other electronic devices, greatly fascinated by
-            innovations and breakthroughs in technology and would like to surround myself without people
+            innovations and breakthroughs in technology and would like to surround myself with people
             who share the same passion as I do towards science and technology.
         </div>
         <div class="section-about-block">
