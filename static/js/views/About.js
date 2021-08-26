@@ -8,8 +8,6 @@ export default class  extends AbstractView {
         <h4>About me</h4>
         <ul>
             <li>👾 A technology enthusiast that has answers to it all. </li>
-            <li>🦈 Check out my portfolio website - <a
-                    href="https://anandur32.github.io/Portfolio/">Portfolio</a>
             </li>
             <li>📚 Read some of my <a href="https://aquaregis32.medium.com/">medium</a> posts </li>
             <li>📫 Reach out to me on <a href="https://twitter.com/AquaRegis32">Twitter</a> or <a
