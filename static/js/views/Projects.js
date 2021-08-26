@@ -45,7 +45,7 @@ export default class  extends AbstractView {
                 </ul>
             </div>
             <div class="section-projects-content-block">
-                <h4>Datascience Projects (E-commerce)</h4>
+                <h4>Datascience Projects</h4>
                 <ul>
                     <li>
                         <a href="https://house-price-ar32.herokuapp.com/">
