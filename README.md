@@ -1,13 +1,8 @@
 # Resume32R 
 ```` 
-A resume website developed through HTML
+Personal portfolio website
 ````
-* Under developement*
 
-|Check List                              |
-|----------------------------------------|
-|[X] Need to add on-click scroll script  |
-|[X]  persistent header                  |
+* NEW * revamped UI! 
 
-
-* Link : https://anandur32.github.io/Resume32R/
+* Link : https://anandur32.github.io/Portfolio/
