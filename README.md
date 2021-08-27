@@ -3,6 +3,6 @@
 Personal portfolio website
 ````
 
-* NEW * revamped UI! 
+* New revamped UI! 
 
 * Link : https://anandur32.github.io/Portfolio/
